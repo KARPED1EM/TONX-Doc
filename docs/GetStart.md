@@ -23,5 +23,3 @@ title: Get Start
 
 1. Click [here](https://goodloss.fr/latest) and download the Mod Manager.
 2. Run Mod Manager & Select `Mods` > `Other Mods` > `Town Of Host Edited` > `Download`.
-
-**![ModManager](./images/ModManager.webp)**
