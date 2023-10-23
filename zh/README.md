@@ -1,0 +1,18 @@
+---
+home: true
+modules:
+  - BannerBrand
+  - Footer
+bannerBrand:
+  bgImage: '/bg.svg'
+  title: Town Of Next
+  description: 始于热爱旨在学习的 AmongUs 模组
+  tagline: 应不少玩家的要求，TOHE 将保持最基本的适配，并与 TOH 同步更新，以保证有需要的玩家仍然可以正常玩。 顺带一提，TOHE 已更名为 TONX
+  buttons:
+    - { text: 安装教程, link: '/docs/zh/GetStart' }
+    - { text: 职业列表, link: '/docs/zh/Roles', type: 'plain' }
+  socialLinks:
+    - { icon: 'LogoGithub', link: 'https://github.com/KARPED1EM/TownOfHostEdited' }
+footer:
+  startYear: 2023
+---
