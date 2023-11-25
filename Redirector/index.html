@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Thanks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+    const Http = new XMLHttpRequest();
+    const url = 'https://gitee.com/api/v5/repos/leeverz/TONX-Installer/releases/latest';
+    Http.open("GET", url);
+    Http.send();
+
+    Http.onreadystatechange = (e) => {
+      var obj = JSON.parse(Http.responseText);
+      console.log(obj.tag_name)
+      window.location.replace("https://gitee.com/leeverz/TONX-Installer/releases/download/" + obj.tag_name + "/TONX.Installer.zip")
+    }
+    </script>
+</body>
+
+</html>
